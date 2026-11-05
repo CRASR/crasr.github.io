@@ -1,12 +1,11 @@
 ---
-title: "About"
+title: "About CRASR"
 title-block-banner: true
 ---
 
-<!-- TODO: swap in CRASR's official description -->
-The **Center for Reservoir and Aquatic Systems Research (CRASR)** at Baylor University studies reservoirs, streams, and the watersheds that feed them.
+The [**Center for Reservoir and Aquatic Systems Research (CRASR)**](https://crasr.artsandsciences.baylor.edu/) is a research and education center at Baylor University. It was founded in 2003 as a partnership between Baylor and the City of Waco. CRASR supports faculty and student research on surface water and groundwater in Texas and beyond, including the ecology, ecotoxicology, and hydrology of aquatic ecosystems.
 
-This site covers the data side of that work: the software we use to collect, check, store, and model monitoring data, and the tools we share with other researchers.
+This site covers CRASR's data science work: the software we use to collect, check, store, and model monitoring data, and the tools we share with other researchers. For CRASR's people, research programs, analytical services, and news, visit the [**CRASR website**](https://crasr.artsandsciences.baylor.edu/).
 
 ## Team
 
@@ -18,4 +17,4 @@ This site covers the data side of that work: the software we use to collect, che
 
 We collaborate on monitoring design, data management, and statistical modeling for aquatic systems. Some of our code is public on [GitHub](https://github.com/CRASR). Much of our day-to-day tooling is private. If you're interested in a collaboration, a dataset, or a tool listed here that isn't public yet, get in touch.
 
-**Contact:** <!-- TODO: name and email -->
+**Contact:** Center for Reservoir and Aquatic Systems Research, Baylor University · [CRASR@baylor.edu](mailto:CRASR@baylor.edu) · (254) 710-2358

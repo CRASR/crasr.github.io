@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-subtitle: "Pipelines, databases, models, and packages. Filter by tag on the right."
+subtitle: "Pipelines, databases, models, and packages from the Center for Reservoir and Aquatic Systems Research (CRASR). Filter by tag on the right."
 page-layout: full
 title-block-banner: true
 listing:

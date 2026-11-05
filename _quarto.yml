@@ -2,10 +2,11 @@ project:
   type: website
 
 website:
-  title: "CRASR"
+  title: "CRASR · Center for Reservoir and Aquatic Systems Research"
   site-url: https://crasr.github.io
-  description: "Data pipelines, databases, models, and software from the Center for Reservoir and Aquatic Systems Research at Baylor University."
+  description: "Data pipelines, databases, models, and software from the Center for Reservoir and Aquatic Systems Research (CRASR) at Baylor University."
   navbar:
+    title: "CRASR"   # full name is appended on wide screens via styles.scss
     left:
       - href: index.qmd
         text: Home
@@ -14,11 +15,14 @@ website:
       - href: about.qmd
         text: About
     right:
+      - text: "CRASR website"
+        icon: box-arrow-up-right
+        href: https://crasr.artsandsciences.baylor.edu/
       - icon: github
         href: https://github.com/CRASR
         aria-label: CRASR on GitHub
   page-footer:
-    left: "Center for Reservoir and Aquatic Systems Research · Baylor University"
+    left: "[Center for Reservoir and Aquatic Systems Research (CRASR)](https://crasr.artsandsciences.baylor.edu/) · Baylor University"
     right: "Built with [Quarto](https://quarto.org)"
 
 format:

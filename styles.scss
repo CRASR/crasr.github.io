@@ -21,6 +21,12 @@ $footer-bg: $tint;
 
 /*-- scss:rules --*/
 
+// ---- Navbar ----
+.navbar .nav-link { white-space: nowrap; }
+@media (min-width: 1200px) {
+  .navbar-title::after { content: " · Center for Reservoir and Aquatic Systems Research"; }
+}
+
 // ---- Hero ----
 #quarto-content > main.content:has(> .hero) {
   margin-top: 0;

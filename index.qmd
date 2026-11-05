@@ -1,5 +1,5 @@
 ---
-pagetitle: "CRASR · Data science for aquatic systems"
+pagetitle: "Data science"
 page-layout: full
 listing:
   id: featured
@@ -15,13 +15,14 @@ listing:
 
 ::: {.hero .column-screen}
 ::: {.hero-inner}
-[Center for Reservoir and Aquatic Systems Research · Baylor University]{.eyebrow}
+[Center for Reservoir and Aquatic Systems Research (CRASR) · Baylor University]{.eyebrow}
 
 [From field sensor to model]{.hero-title}
 
-[We build the pipelines, databases, and statistical models that turn CRASR's monitoring of reservoirs and streams into data people can use.]{.hero-lead}
+[This is the data science side of the Center for Reservoir and Aquatic Systems Research: the pipelines, databases, and statistical models that turn CRASR's monitoring of reservoirs and streams into data people can use.]{.hero-lead}
 
 [Browse projects](projects.qmd){.btn .btn-gold .btn-lg}
+[Visit the CRASR website](https://crasr.artsandsciences.baylor.edu/){.btn .btn-outline-light .btn-lg}
 [CRASR on GitHub](https://github.com/CRASR){.btn .btn-outline-light .btn-lg}
 :::
 :::
