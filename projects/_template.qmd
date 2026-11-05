@@ -1,0 +1,24 @@
+---
+# Copy this file to projects/<short-name>.qmd and fill it in.
+# Files starting with "_" are not rendered, so this template never shows on the site.
+title: "Project name"
+description: "One sentence: what problem it solves."   # shown on the card
+categories: [Data infrastructure, Quarto]                     # area + main tools; these become filters
+image: img/project-name.png                              # 16:10 figure or screenshot; optional
+featured: false                                          # true = shows on the home page
+---
+
+::: {.project-meta}
+**Status:** In use · private repository<br>
+**Stack:** R · Quarto<br>
+**Code:** [github.com/CRASR/repo-name](https://github.com/CRASR/repo-name)
+:::
+
+## What it does
+
+A short paragraph for a reader outside the lab.
+
+## Highlights
+
+- Something it does well
+- Another thing

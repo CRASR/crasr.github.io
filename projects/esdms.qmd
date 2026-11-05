@@ -1,0 +1,24 @@
+---
+title: "ESDMS lab data pipeline"
+description: "Ingestion, QA/QC, and automated reporting for CRASR's analytical lab data."
+categories: [Data infrastructure, Quarto]
+image: img/esdms.png
+featured: true
+---
+
+::: {.project-meta}
+**Status:** In use<br>
+**Stack:** R · Quarto · kableExtra · PowerShell<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo, or write "Private, contact us" -->
+:::
+
+## What it does
+
+ESDMS is a set of linked R scripts that read the output from the lab's analytical instruments, match it to chain-of-custody records, apply detection-limit flags and QC checks, and build a searchable sample database. Quarto templates turn each batch into a PDF lab report with QA/QC notes.
+
+## Highlights
+
+- Parsers for Omnion, Shimadzu, and Agilent Cary 60 instrument exports and chain-of-custody sheets
+- Raw values, MDL flags, and reference constants are handled the same way across the whole pipeline
+- Automated per-analyte QC loops and PDF lab reports
+- A Windows desktop app lets the team browse the sample archive and search the database without R or Python

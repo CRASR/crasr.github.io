@@ -1,0 +1,21 @@
+---
+title: "About"
+title-block-banner: true
+---
+
+<!-- TODO: swap in CRASR's official description -->
+The **Center for Reservoir and Aquatic Systems Research (CRASR)** at Baylor University studies reservoirs, streams, and the watersheds that feed them.
+
+This site covers the data side of that work: the software we use to collect, check, store, and model monitoring data, and the tools we share with other researchers.
+
+## Team
+
+<!-- TODO: add people. One line each is plenty. -->
+- **Caleb Robbins**: environmental researcher and data analyst
+- **Name**: role
+
+## Working with us
+
+We collaborate on monitoring design, data management, and statistical modeling for aquatic systems. Some of our code is public on [GitHub](https://github.com/CRASR). Much of our day-to-day tooling is private. If you're interested in a collaboration, a dataset, or a tool listed here that isn't public yet, get in touch.
+
+**Contact:** <!-- TODO: name and email -->

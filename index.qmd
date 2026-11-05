@@ -1,0 +1,53 @@
+---
+pagetitle: "CRASR · Data science for aquatic systems"
+page-layout: full
+listing:
+  id: featured
+  contents: projects
+  include:
+    featured: true
+  type: grid
+  grid-columns: 3
+  sort: title
+  fields: [image, title, description, categories]
+  image-height: 180px
+---
+
+::: {.hero .column-screen}
+::: {.hero-inner}
+[Center for Reservoir and Aquatic Systems Research · Baylor University]{.eyebrow}
+
+[From field sensor to model]{.hero-title}
+
+[We build the pipelines, databases, and statistical models that turn CRASR's monitoring of reservoirs and streams into data people can use.]{.hero-lead}
+
+[Browse projects](projects.qmd){.btn .btn-gold .btn-lg}
+[CRASR on GitHub](https://github.com/CRASR){.btn .btn-outline-light .btn-lg}
+:::
+:::
+
+::: {.grid .pillars .column-page}
+::: {.g-col-12 .g-col-md-4 .pillar}
+#### Data infrastructure
+Ingestion and QA/QC pipelines for lab instruments and field loggers, sample databases, and automated reports.
+:::
+
+::: {.g-col-12 .g-col-md-4 .pillar}
+#### Statistical modeling
+Hierarchical Bayesian models (Stan/brms) of water chemistry, decomposition, and reservoir response to drought.
+:::
+
+::: {.g-col-12 .g-col-md-4 .pillar}
+#### Open tools
+R packages and reusable workflows, shared openly where we can.
+:::
+:::
+
+::: {.column-page}
+## Featured projects
+
+::: {#featured}
+:::
+
+[All projects →](projects.qmd){.all-link}
+:::

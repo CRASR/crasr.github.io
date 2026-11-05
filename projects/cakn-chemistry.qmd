@@ -1,0 +1,22 @@
+---
+title: "Central Alaska Network water chemistry"
+description: "Bayesian models of nitrogen chemistry for the Central Alaska Network (CAKN)."
+categories: [Modeling, Stan/brms, Quarto]
+image: img/cakn-chemistry.png
+featured: false
+---
+
+::: {.project-meta}
+**Status:** Active research<br>
+**Stack:** R · brms · marginaleffects · Quarto<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo, or write "Private, contact us" -->
+:::
+
+## What it does
+
+A suite of 21 Bayesian models pairing nitrogen analytes with environmental predictors. Effects are summarized with marginaleffects and published as Quarto reports.
+
+## Highlights
+
+- Model fits are precomputed, so reports render quickly without saving large brms objects
+- A reusable function computes predictor effects on the original data scale

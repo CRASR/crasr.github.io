@@ -1,0 +1,24 @@
+---
+title: "Flow, rainfall & hydrologic events"
+description: "Automated USGS flow updates, radar rainfall maps, and storm-event classification for CRASR watersheds."
+categories: [Data infrastructure, Time series, Spatial]
+image: img/hydrology.png
+featured: false
+---
+
+::: {.project-meta}
+**Status:** In use<br>
+**Stack:** R · dataRetrieval · hydroEvents · sf<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo, or write "Private, contact us" -->
+:::
+
+## What it does
+
+Scripts that keep continuous USGS discharge records current, classify storm events across monitoring sites, and map watershed rainfall and stream networks.
+
+## Highlights
+
+- USGS continuous-flow updates with dataRetrieval
+- Hydrologic event classification with hydroEvents across multiple sites
+- MRMS radar rainfall grids for the North Bosque watershed
+- Watershed maps built on NHDPlus flowlines

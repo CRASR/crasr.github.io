@@ -1,0 +1,22 @@
+---
+title: "litterbayes"
+description: "An R package for Bayesian fitting of leaf-litter mass-loss curves."
+categories: [R package, Modeling, Stan/brms]
+image: img/litterbayes.png
+featured: true
+---
+
+::: {.project-meta}
+**Status:** In development · targeting CRAN<br>
+**Stack:** R · brms · Stan<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo -->
+:::
+
+## What it does
+
+litterbayes fits decomposition models to litter-bag mass-loss data in a Bayesian framework. Uncertainty carries through to decay-rate estimates, so they can be compared across studies, sites, and litter types.
+
+## Highlights
+
+- Nonlinear two-pool decay models fit with brms
+- Designed for researchers working with litter-bag decomposition data

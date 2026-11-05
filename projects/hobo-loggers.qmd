@@ -1,0 +1,23 @@
+---
+title: "Water-level logger pipeline"
+description: "Ingest, clean, and flag HOBO pressure-logger time series across monitoring sites."
+categories: [Data infrastructure, Time series]
+image: img/hobo-loggers.png
+featured: false
+---
+
+::: {.project-meta}
+**Status:** In use<br>
+**Stack:** R<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo, or write "Private, contact us" -->
+:::
+
+## What it does
+
+An R pipeline that takes raw HOBO pressure-logger downloads from field sites and turns them into clean, flagged time series ready for analysis.
+
+## Highlights
+
+- Resolves daylight-saving-time ambiguity in logger timestamps
+- Flags suspect readings by rate of change
+- Checks for gaps across many sites at once

@@ -1,0 +1,22 @@
+---
+title: "Reservoir drought vulnerability"
+description: "Hierarchical Bayesian models of how reservoirs respond to drought, built on multi-decadal records."
+categories: [Modeling, Stan/brms, Reservoirs]
+image: img/reservoir-drought.png
+featured: true
+---
+
+::: {.project-meta}
+**Status:** Active research<br>
+**Stack:** R · brms · Stan · loo<br>
+**Code:** [CRASR on GitHub](https://github.com/CRASR) <!-- TODO: link the repo, or write "Private, contact us" -->
+:::
+
+## What it does
+
+A hierarchical regression pipeline built on multi-decadal reservoir time series. It estimates how drought vulnerability varies among reservoirs.
+
+## Highlights
+
+- Hierarchical models fit in brms
+- Spatial Gaussian-process extensions compared by leave-one-out cross-validation
