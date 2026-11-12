@@ -35,7 +35,7 @@ Ingestion and QA/QC pipelines for lab instruments and field loggers, sample data
 
 ::: {.g-col-12 .g-col-md-4 .pillar}
 #### Statistical modeling
-Hierarchical Bayesian models (Stan/brms) of water chemistry, decomposition, and reservoir response to drought.
+Machine learning, deep learning, and hierarchical Bayesian models (Stan/brms) of water chemistry, reservoir conditions, and litter decomposition.
 :::
 
 ::: {.g-col-12 .g-col-md-4 .pillar}
