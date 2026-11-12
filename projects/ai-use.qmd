@@ -1,0 +1,34 @@
+---
+title: "AI-use policy and template"
+description: "How we use, record, and disclose generative AI in research and software, with a template any project can adopt."
+categories: [Open science, Reproducibility, R]
+image: img/ai-use.png
+featured: false
+---
+
+::: {.project-meta}
+**Status:** In use · public repository · CC BY 4.0<br>
+**Stack:** Markdown · CSV · R (base only)<br>
+**Code:** [github.com/CRASR/ai-use](https://github.com/CRASR/ai-use)
+:::
+
+## What it does
+
+AI tools now write code, critique models, and edit text in much of our work. This repository sets out the practice we aim for: people stay accountable for everything, AI use is disclosed by research stage along with how its output was checked, and a short log kept with the code records what happened. A companion page covers the energy and water costs of AI, including for Texas water supplies.
+
+The policy and template are built on published disclosure frameworks and research-integrity guidance, cited in the repository's README. Anyone may reuse or adapt them.
+
+## Highlights
+
+- One [policy](https://github.com/CRASR/ai-use/blob/main/POLICY.md) for papers, software, reports, and proposals, with risk tiers that scale the record to what an undetected AI error could do
+- A drop-in `ai-use/` folder: a log, tool and material tables, and a data dictionary
+- An R helper that fetches the template, adds log rows, validates them, and drafts a disclosure statement
+- A [page on energy and water use](https://github.com/CRASR/ai-use/blob/main/ENVIRONMENT.md)
+
+## Use it in a project
+
+```r
+source("https://raw.githubusercontent.com/CRASR/ai-use/main/R/ai_use.R")
+ai_use_init()        # creates ./ai-use
+ai_use_statement()   # drafts a statement from the log
+```

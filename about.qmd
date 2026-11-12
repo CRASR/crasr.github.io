@@ -17,4 +17,6 @@ This site covers CRASR's data science work: the software we use to collect, chec
 
 We collaborate on monitoring design, data management, and statistical modeling for aquatic systems. Some of our code is public on [GitHub](https://github.com/CRASR). Much of our day-to-day tooling is private. If you're interested in a collaboration, a dataset, or a tool listed here that isn't public yet, get in touch.
 
+We aim to use AI tools openly and accountably; our [AI-use policy and template](projects/ai-use.qmd) explain how.
+
 **Contact:** Center for Reservoir and Aquatic Systems Research, Baylor University · [CRASR@baylor.edu](mailto:CRASR@baylor.edu) · (254) 710-2358

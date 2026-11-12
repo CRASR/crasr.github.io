@@ -85,6 +85,29 @@ $footer-bg: $tint;
   p  { color: #4b5a53; margin-bottom: 0; }
 }
 
+// ---- AI-use band (home page) ----
+.ai-band {
+  background: $tint;
+  border-left: 4px solid $gold;
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2.5rem;
+  h4 { margin-top: 0; color: $green; }
+  p  { color: #4b5a53; max-width: 60rem; }
+  .btn { margin: 0 .5rem .25rem 0; font-weight: 600; }
+}
+.btn-green {
+  background: $green;
+  border-color: $green;
+  color: #fff;
+  &:hover, &:focus { background: $green-mid; border-color: $green-mid; color: #fff; }
+}
+.btn-outline-green {
+  border-color: $green;
+  color: $green;
+  &:hover, &:focus { background: $green; color: #fff; }
+}
+
 // ---- Listing cards ----
 .quarto-grid-item.card {
   border: 1px solid #e1e8e4;

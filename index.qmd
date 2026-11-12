@@ -44,6 +44,14 @@ R packages and reusable workflows, shared openly where we can.
 :::
 :::
 
+::: {.ai-band .column-page}
+#### How we use AI
+We aim to use generative AI openly: people stay accountable for the work, every substantive use is disclosed by research stage along with how it was checked, and a short log lives with the code. Our policy, a drop-in template, and an R helper are public for anyone to adopt.
+
+[Read the policy](projects/ai-use.qmd){.btn .btn-green}
+[CRASR/ai-use on GitHub](https://github.com/CRASR/ai-use){.btn .btn-outline-green}
+:::
+
 ::: {.column-page}
 ## Featured projects
 
