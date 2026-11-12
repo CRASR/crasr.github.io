@@ -1,7 +1,7 @@
 ---
 title: "AI-use policy and template"
 description: "How we use, record, and disclose generative AI in research and software, with a template any project can adopt."
-categories: [Open science, Reproducibility, R]
+categories: [Tools, Open science, Reproducibility, R]
 image: img/ai-use.png
 featured: false
 ---
