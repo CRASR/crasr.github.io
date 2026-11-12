@@ -1,0 +1,29 @@
+---
+title: "Gage Widget"
+description: "A Windows desktop widget showing the latest discharge, stage, and 48-hour hydrograph for the USGS gages you choose."
+categories: [Tools, Time series, PowerShell]
+image: img/gage-widget.png
+featured: false
+---
+
+::: {.project-meta}
+**Status:** In use · public repository · MIT<br>
+**Stack:** Windows PowerShell 5.1 · WPF · USGS Water Data API<br>
+**Code:** [github.com/CRASR/gage-widget](https://github.com/CRASR/gage-widget)
+:::
+
+## What it does
+
+A small widget that sits on the Windows desktop, just above the wallpaper, and keeps an eye on nearby streams. Each gage shows its latest discharge and stage, when the reading was taken, and a hydrograph of the last 48 hours. It checks USGS every few minutes and needs nothing installed beyond what ships with Windows.
+
+## Highlights
+
+- Add, remove, and reorder gages from a right-click menu; any USGS site number works
+- Hover a hydrograph to read the discharge and time of any point
+- Stays visible through Show Desktop (Win+D)
+- Runs without a USGS API key; an optional key, read from an environment variable, raises the rate limit for shared networks
+- An [AI-use record](https://github.com/CRASR/gage-widget/tree/main/ai-use) kept with the code, following our [AI-use policy](ai-use.qmd)
+
+## Get it
+
+Download the repository as a ZIP, extract it, and double-click `Create Gage Widget shortcut.cmd`. The [README](https://github.com/CRASR/gage-widget#readme) covers setup, configuration, API keys, and how to download the full USGS record for later analysis.
