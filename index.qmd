@@ -40,7 +40,7 @@ Hierarchical Bayesian models (Stan/brms) of water chemistry, decomposition, and 
 
 ::: {.g-col-12 .g-col-md-4 .pillar}
 #### Open tools
-R packages and reusable workflows, shared openly where we can.
+R packages, desktop tools, and reusable workflows, shared openly where we can. [See tools →](projects.qmd#category=Tools)
 :::
 :::
 
