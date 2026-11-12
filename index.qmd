@@ -19,7 +19,7 @@ listing:
 
 [Data science for streams and reservoirs]{.hero-title}
 
-[The pipelines, databases, and statistical models behind CRASR's work on reservoirs and streams, turning field monitoring and laboratory analyses into data, tools, and results people can use.]{.hero-lead}
+[The pipelines, databases, and statistical models behind CRASR's work on aquatic ecosystems, turning field monitoring and laboratory analyses into data, tools, and results people can use.]{.hero-lead}
 
 [Browse projects](projects.qmd){.btn .btn-gold .btn-lg}
 [Visit the CRASR website](https://crasr.artsandsciences.baylor.edu/){.btn .btn-outline-light .btn-lg}
