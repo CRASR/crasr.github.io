@@ -14,7 +14,19 @@ featured: false
 
 ## What it does
 
-AI tools now write code, critique models, and edit text in much of our work. This repository sets out the practice we aim for: people stay accountable for everything, AI use is disclosed by research stage along with how its output was checked, and a short log kept with the code records what happened. A companion page covers the energy and water costs of AI, including for Texas water supplies.
+AI-assistance is now critical to our code generation and software maintenance, but not to our decision making or statistical thinking. This repository sets out the practice we aim for: people stay accountable for everything, AI use is disclosed by research stage along with how its output was checked, and a short log kept with the code records what happened. AI is **never** used to analyze client data and is not a substitute for expertise. A companion page provides information on the energy and water costs of AI, including for Texas water supplies.
+
+## What AI does not do
+
+AI does not replace the expertise, statistical thinking, and critical judgment our work depends on. People decide:
+
+- which questions to ask and how studies and monitoring are designed;
+- which models to fit, what they assume, and whether those assumptions hold;
+- what the results mean, how uncertain they are, and what to recommend.
+
+When an AI tool suggests a model structure, an analysis, or an interpretation, it is treated like any other suggestion: someone with the relevant expertise weighs it, tests it, and takes responsibility for the choice. We aim to be able to explain and defend every decision in our work without reference to the AI that may have helped write its code.
+
+We also write our own papers, because writing is how we think through and learn from our work; AI may offer feedback on a draft or help with translation. And we never put manuscripts or proposals we are reviewing into AI tools: peer review is confidential, and it is a judgment made by people.
 
 The policy and template are built on published disclosure frameworks and research-integrity guidance, cited in the repository's README. Anyone may reuse or adapt them.
 
