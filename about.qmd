@@ -7,7 +7,7 @@ The [**Center for Reservoir and Aquatic Systems Research (CRASR)**](https://cras
 
 This site covers CRASR's data science work: the software we use to collect, check, store, and model monitoring data, and the tools we share with other researchers. For CRASR's people, research programs, analytical services, and news, visit the [**CRASR website**](https://crasr.artsandsciences.baylor.edu/).
 
-## Team
+## Data Science Team
 
 <!-- TODO: add people. -->
 - **Caleb Robbins**: CRASR Assistant Research Scientist. 
