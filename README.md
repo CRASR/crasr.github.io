@@ -28,9 +28,14 @@ The thumbnails in `projects/img/` are decorative placeholders. Replace them with
 
 ## Preview locally
 
+The AI reading list page pulls its content from [CRASR/ai-use](https://github.com/CRASR/ai-use), so clone that into `_ai-use/` first (it's git-ignored here):
+
 ```bash
+git clone https://github.com/CRASR/ai-use _ai-use
 quarto preview
 ```
+
+Edit the reading list, BibTeX, and RIS in `ai-use/references/`, not here. The publish Action checks out ai-use on every build and also rebuilds daily, so changes there show up within a day.
 
 ## Things to fill in
 

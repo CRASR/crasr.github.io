@@ -22,7 +22,7 @@ listing:
     image-height: 180px
 ---
 
-Much of our data science work happens inside other groups' projects. Code for that work often lives in the partner's repositories rather than CRASR's, so the project pages below link out to wherever it is.
+Much of our data science work happens with other groups. Project pages below highlight those partnerships and when our code lives in their repositories.
 
 ## Partners
 

@@ -21,7 +21,7 @@ Most problems with AI-written code, such as bloat, brittle tests, and code nobod
 
 - A table matching each common pitfall to an instruction and the reason for it
 - A starting `AGENTS.md` (also usable as `CLAUDE.md`) to copy into a project and trim
-- A learning mode that makes the assistant a tutor rather than a solution generator, adapted from [Mine Çetinkaya-Rundel's course instructions](https://github.com/mine-cetinkaya-rundel/beyond-the-prompt-rai-2026/blob/main/examples/hw/AGENTS.md)
+- A learning mode that makes the assistant a tutor rather than a solution generator, adapted from the [course `AGENTS.md`](https://github.com/mine-cetinkaya-rundel/beyond-the-prompt-rai-2026/blob/main/examples/hw/AGENTS.md) in [Mine Çetinkaya-Rundel](https://mine-cr.com)'s talk [*Beyond the prompt*](https://speakerdeck.com/minecr/beyond-the-prompt-rai)
 - Practical safeguards for privacy and licensing that don't rely on the assistant following instructions
 - Three suggested skills: reviewing an AI-written change for bloat, drafting an AI-use log entry, and explaining code back to its author
 

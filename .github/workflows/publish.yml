@@ -3,6 +3,9 @@ name: Publish site
 on:
   push:
     branches: main
+  # Picks up changes to the reading list in CRASR/ai-use
+  schedule:
+    - cron: "23 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: CRASR/ai-use
+          path: _ai-use
       - uses: quarto-dev/quarto-actions/setup@v2
       - uses: quarto-dev/quarto-actions/render@v2
       - uses: actions/upload-pages-artifact@v3
