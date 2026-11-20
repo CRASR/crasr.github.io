@@ -1,0 +1,30 @@
+---
+title: "Coding with AI assistants"
+description: "Instructions, a learning mode, and skills that steer AI coding assistants away from bloated code and toward understanding."
+categories: [Research practice, Open science, R]
+image: img/coding-with-ai.png
+featured: false
+practice: true
+---
+
+::: {.project-meta}
+**Status:** In use · public · CC BY 4.0<br>
+**Format:** Markdown guide with a copyable instructions file<br>
+**Get it:** [CODING-WITH-AI.md](https://github.com/CRASR/ai-use/blob/main/CODING-WITH-AI.md) in [CRASR/ai-use](https://github.com/CRASR/ai-use)
+:::
+
+## What it does
+
+Most problems with AI-written code, such as bloat, brittle tests, and code nobody fully understands, can be headed off before the first prompt, in the standing instructions an assistant reads every session. This guide collects instructions that have worked for us, each paired with the problem it addresses and the evidence behind it.
+
+## Highlights
+
+- A table matching each common pitfall to an instruction and the reason for it
+- A starting `AGENTS.md` (also usable as `CLAUDE.md`) to copy into a project and trim
+- A learning mode that makes the assistant a tutor rather than a solution generator, adapted from [Mine Çetinkaya-Rundel's course instructions](https://github.com/mine-cetinkaya-rundel/beyond-the-prompt-rai-2026/blob/main/examples/hw/AGENTS.md)
+- Practical safeguards for privacy and licensing that don't rely on the assistant following instructions
+- Three suggested skills: reviewing an AI-written change for bloat, drafting an AI-use log entry, and explaining code back to its author
+
+## Why
+
+AI coding tools tend to add complexity and technical debt, and accepting code without reading it builds comprehension debt. The guide and the [reading list](ai-reading-list.qmd) cover the evidence; [AI in our research](../ai.qmd) explains how we work.

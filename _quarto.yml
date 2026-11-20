@@ -12,6 +12,8 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
+      - href: ai.qmd
+        text: AI in research
       - href: about.qmd
         text: About
     right:

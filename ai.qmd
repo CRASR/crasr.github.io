@@ -1,0 +1,45 @@
+---
+title: "AI in our research"
+subtitle: "How we use generative AI, what we don't use it for, and the tools we share so others can do the same."
+title-block-banner: true
+listing:
+  - id: resources
+    contents: projects
+    include:
+      practice: true
+    type: grid
+    grid-columns: 3
+    sort: title
+    fields: [image, title, description]
+    image-height: 160px
+---
+
+## How we use AI
+
+AI-assistance is now critical to our code generation and software maintenance, but not to our decision making or statistical thinking. We aim to use generative AI openly: people stay accountable for the work, privacy is respected, every substantive use is disclosed by research stage along with how it was checked, and a short log lives with AI-generated code. AI is **never** used to analyze client data and is not a substitute for expertise.
+
+## Resources
+
+Everything here is public for anyone to use or adapt.
+
+::: {#resources}
+:::
+
+## What AI does not do
+
+AI does not replace the expertise, statistical thinking, and critical judgment our work depends on. People decide:
+
+- which questions to ask and how studies and monitoring are designed;
+- which models to fit, what they assume, and whether those assumptions hold;
+- what the results mean, how uncertain they are, and what to recommend.
+
+When an AI tool suggests a model structure, an analysis, or an interpretation, it is treated like any other suggestion: someone with the relevant expertise weighs it, tests it, and takes responsibility for the choice. We aim to be able to explain and defend every decision in our work without reference to the AI that may have helped write its code.
+
+We also write our own papers, because writing is how we think through and learn from our work; AI may offer feedback on a draft or help with translation. And we never put manuscripts or proposals we are reviewing into AI tools: peer review is confidential, and it is a judgment made by people.
+
+
+## Why we're careful with AI-written code
+
+AI-generated code tends to be longer, more duplicated, and more complex than the task needs. For a practitioner's view of how this plays out, see [Merz (2026)](https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/). Studies of open-source projects find that AI coding tools bring a short burst of speed followed by lasting increases in code complexity and **technical debt**: code that works today but is harder to change tomorrow ([He et al. 2026](https://doi.org/10.48550/arXiv.2511.04427); [Liu et al. 2026](https://doi.org/10.48550/arXiv.2603.28592)). Accepting code without reading it also builds **comprehension debt**, a growing gap between the code a team has and the code it understands ([Ahmad 2026](https://doi.org/10.48550/arXiv.2604.13277)). And the speed can be an illusion: in a randomized trial, experienced developers believed AI had made them faster when it had made them 19% slower ([Becker et al. 2025](https://doi.org/10.48550/arXiv.2507.09089)).
+
+AI-written code is read and tested before it is merged or used. We also set up our assistants to help: standing instructions ask for small, targeted changes, explanations of each change, and evidence that tests pass, and a learning mode can turn the assistant into a tutor rather than a solution generator ([guide to coding with AI](https://github.com/CRASR/ai-use/blob/main/CODING-WITH-AI.md)).
