@@ -1,0 +1,37 @@
+---
+title: "Collaborations"
+subtitle: "Labs and organizations we build data pipelines, models, and software with."
+title-block-banner: true
+language:
+  listing-page-no-matches: "Project pages for this work are on the way."
+listing:
+  - id: partners
+    contents: partners.yml
+    type: grid
+    grid-columns: 2
+    sort: false
+    fields: [title, subtitle, description]
+  - id: shared-projects
+    contents: projects
+    include:
+      categories: Collaborations
+    type: grid
+    grid-columns: 3
+    sort: title
+    fields: [image, title, description, categories]
+    image-height: 180px
+---
+
+Much of our data science work happens inside other groups' projects. Code for that work often lives in the partner's repositories rather than CRASR's, so the project pages below link out to wherever it is.
+
+## Partners
+
+::: {#partners}
+:::
+
+## Shared projects
+
+::: {#shared-projects}
+:::
+
+Interested in working with us? See [Working with us](about.qmd#working-with-us).

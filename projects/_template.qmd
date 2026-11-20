@@ -3,7 +3,7 @@
 # Files starting with "_" are not rendered, so this template never shows on the site.
 title: "Project name"
 description: "One sentence: what problem it solves."   # shown on the card
-categories: [Data infrastructure, Quarto]                     # area + main tools; these become filters
+categories: [Data infrastructure, Quarto]                     # area + main tools; these become filters. Add "Collaborations" for partner work.
 image: img/project-name.png                              # 16:10 figure or screenshot; optional
 featured: false                                          # true = shows on the home page
 ---
@@ -12,6 +12,10 @@ featured: false                                          # true = shows on the h
 **Status:** In use · private repository<br>
 **Stack:** R · Quarto<br>
 **Code:** [github.com/CRASR/repo-name](https://github.com/CRASR/repo-name)
+<!-- For partner work, add the two lines below and link the repo where it lives (e.g. github.com/AKRivers/...).
+**Partner:** [AKRivers lab](../collaborations.qmd) (Jeff Muehlbauer, UAF)<br>
+**Our role:** Lead developer · or · Contributor (data pipeline, models)
+-->
 :::
 
 ## What it does

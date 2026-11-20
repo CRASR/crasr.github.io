@@ -21,6 +21,11 @@ Source for the CRASR data science site, <https://crasr.github.io>. It's built wi
 
 The thumbnails in `projects/img/` are decorative placeholders. Replace them with real figures when you have them.
 
+## Add a collaboration
+
+- **Partner:** add an entry to `partners.yml`. It shows on the Collaborations page. Only list partners who've agreed to be named.
+- **Shared project:** make a project page as above, add `Collaborations` to its `categories`, and fill in the `Partner` and `Our role` lines from the template. Link the repo wherever it lives, even in the partner's GitHub org. Tagged pages show up on the Collaborations page and under the Collaborations filter on Projects.
+
 ## Preview locally
 
 ```bash
