@@ -21,7 +21,7 @@ open-graph:
 
 ## What it does
 
-AKCatchments is delineates and generates catchment-scale information for streams in Alaska.
+AKCatchments delineates and generates catchment-scale information for streams in Alaska.
 
 ## Highlights
 
