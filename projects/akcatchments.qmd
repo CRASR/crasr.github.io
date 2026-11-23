@@ -21,11 +21,11 @@ open-graph:
 
 ## What it does
 
-TODO: your blurb, a short paragraph for a reader outside the lab.
+AKCatchments is delineates and generates catchment-scale information for streams in Alaska.
 
 ## Highlights
 
-- TODO
+- Coming soon!
 
 ## Get it
 

@@ -2,10 +2,13 @@
 title: "ailogR"
 description: "An R package that logs AI use in research one task at a time, checks the log for gaps, and drafts an AI-use statement."
 categories: [AI, Research practice, R package, R, Tools, Open science]
-image: img/ailogr.png
+image: img/ailogr-hex.png
+image-alt: "ailogR hex sticker"
 featured: true
 practice: true
 ---
+
+![](img/ailogr-hex.png){.hex fig-alt="ailogR hex sticker"}
 
 ::: {.project-meta}
 **Status:** In development · public repository · MIT<br>
