@@ -1,6 +1,6 @@
 ---
 title: "AKCatchments"
-description: "TODO: your one-sentence blurb for the card."
+description: "Delineates and generates catchment-scale information for streams in Alaska."
 categories: [R package, R, Tools, Spatial, Collaborations, AKRivers lab]
 image: img/akcatchments-hex.png
 image-alt: "AKCatchments hex sticker"
