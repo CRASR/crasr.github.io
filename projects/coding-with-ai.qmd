@@ -1,9 +1,9 @@
 ---
 title: "Coding with AI assistants"
 description: "Instructions, a learning mode, and skills that steer AI coding assistants away from bloated code and toward understanding."
-categories: [Research practice, Open science, R]
+categories: [AI, Research practice, Open science, R]
 image: img/coding-with-ai.png
-featured: false
+featured: true
 practice: true
 ---
 
@@ -27,4 +27,4 @@ Most problems with AI-written code, such as bloat, brittle tests, and code nobod
 
 ## Why
 
-AI coding tools tend to add complexity and technical debt, and accepting code without reading it builds comprehension debt. The guide and the [reading list](ai-reading-list.qmd) cover the evidence; [AI in our research](../ai.qmd) explains how we work.
+AI coding tools tend to add complexity and technical debt, and accepting code without reading it builds comprehension debt. The guide and the [reading list](ai-reading-list.qmd#ai-generated-code-pitfalls-and-practice) cover the evidence; [AI in our research](../ai.qmd) explains how we work.

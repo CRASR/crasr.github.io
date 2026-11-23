@@ -1,5 +1,6 @@
 ---
 title: "AI-use policy and template"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "How we use, record, and disclose generative AI in research and software, with a template any project can adopt."
 categories: [Research practice, Tools, Open science, Reproducibility, R]
 image: img/ai-use.png

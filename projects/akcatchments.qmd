@@ -1,0 +1,38 @@
+---
+title: "AKCatchments"
+description: "TODO: your one-sentence blurb for the card."
+categories: [R package, R, Tools, Spatial, Collaborations, AKRivers lab]
+image: img/akcatchments-hex.png
+image-alt: "AKCatchments hex sticker"
+featured: true
+open-graph:
+  image: img/akcatchments-social.png
+---
+
+![](img/akcatchments-hex.png){.hex fig-alt="AKCatchments hex sticker"}
+
+::: {.project-meta}
+**Status:** Alpha · public repository · MIT<br>
+**Stack:** R · sf · terra · WhiteboxTools<br>
+**Code:** [github.com/AKRiversLab/AKCatchments](https://github.com/AKRiversLab/AKCatchments)<br>
+**Partner:** [AKRivers lab](../collaborations.qmd#category=AKRivers%20lab) (Jeff Muehlbauer, UAF)<br>
+**Our role:** Lead developer and maintainer
+:::
+
+## What it does
+
+TODO: your blurb, a short paragraph for a reader outside the lab.
+
+## Highlights
+
+- TODO
+
+## Get it
+
+```r
+# install.packages("remotes")
+remotes::install_github("AKRiversLab/AKCatchments")
+whitebox::install_whitebox()   # WhiteboxTools binary for flow routing, once
+```
+
+The [README](https://github.com/AKRiversLab/AKCatchments#readme) covers the workflow, the download cache, and each data layer.

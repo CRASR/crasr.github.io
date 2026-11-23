@@ -1,5 +1,6 @@
 ---
 title: "Gage Widget"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "A Windows desktop widget showing the latest discharge, stage, and 48-hour hydrograph for the USGS gages you choose."
 categories: [Tools, Time series, PowerShell]
 image: img/gage-widget.png

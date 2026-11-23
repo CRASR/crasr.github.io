@@ -16,15 +16,15 @@ Source for the CRASR data science site, <https://crasr.github.io>. It's built wi
    - `description` is what shows on the card.
    - `categories` become the filter tags.
    - `featured: true` puts the project on the home page.
-3. Optional: add a card image at `projects/img/<short-name>.png`, ideally about 16:10. A real figure or screenshot from the project works best.
+3. Optional: add a card image at `projects/img/<short-name>.png`, ideally about 16:10. A real figure or screenshot from the project works best. For an R package with a hex sticker, name it `<short-name>-hex.png` instead: cards show it whole rather than cropped, and `![](img/<short-name>-hex.png){.hex}` above the project-meta block puts it top right of the page (see `projects/akcatchments.qmd`).
 4. Commit and push.
 
 The thumbnails in `projects/img/` are decorative placeholders. Replace them with real figures when you have them.
 
 ## Add a collaboration
 
-- **Partner:** add an entry to `partners.yml`. It shows on the Collaborations page. Only list partners who've agreed to be named.
-- **Shared project:** make a project page as above, add `Collaborations` to its `categories`, and fill in the `Partner` and `Our role` lines from the template. Link the repo wherever it lives, even in the partner's GitHub org. Tagged pages show up on the Collaborations page and under the Collaborations filter on Projects.
+- **Partner:** add an entry to `partners.yml`, with the partner's tag (usually its name) in `categories`. It shows on the Collaborations page, linked to the partner's own page. Only list partners who've agreed to be named.
+- **Shared project:** make a project page as above, add `Collaborations` and the partner's tag to its `categories`, and fill in the `Partner` and `Our role` lines from the template. Link the repo wherever it lives, even in the partner's GitHub org. Tagged pages show up on the Collaborations page and under the Collaborations and partner filters on Projects. The `Partner` line links to `../collaborations.qmd#category=<tag>` (spaces as `%20`), which shows just that partner and the projects we share with them; clicking the partner's tag on a card there does the same.
 
 ## Preview locally
 

@@ -10,7 +10,7 @@ listing:
     type: grid
     grid-columns: 2
     sort: false
-    fields: [title, subtitle, description]
+    fields: [title, subtitle, description, categories]
   - id: shared-projects
     contents: projects
     include:

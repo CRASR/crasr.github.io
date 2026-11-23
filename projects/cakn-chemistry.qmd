@@ -1,5 +1,6 @@
 ---
 title: "Central Alaska Network water chemistry"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "Bayesian models of nitrogen chemistry for the Central Alaska Network (CAKN)."
 categories: [Modeling, Stan/brms, Quarto]
 image: img/cakn-chemistry.png

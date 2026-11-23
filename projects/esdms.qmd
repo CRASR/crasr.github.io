@@ -1,5 +1,6 @@
 ---
 title: "ESDMS lab data pipeline"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "Ingestion, QA/QC, and automated reporting for CRASR's analytical lab data."
 categories: [Data infrastructure, Quarto]
 image: img/esdms.png

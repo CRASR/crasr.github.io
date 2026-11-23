@@ -1,5 +1,6 @@
 ---
 title: "Reservoir drought vulnerability"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "Hierarchical Bayesian models of how reservoirs respond to drought, built on multi-decadal records."
 categories: [Modeling, Stan/brms, Reservoirs]
 image: img/reservoir-drought.png

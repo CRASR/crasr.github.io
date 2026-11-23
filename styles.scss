@@ -126,6 +126,12 @@ $footer-bg: $tint;
     border-radius: 999px;
     font-size: .72rem;
   }
+  // Card images named *-hex.png are R package stickers: show the whole hex, not a crop
+  .card-img-top > img[src$="-hex.png"] {
+    object-fit: contain;
+    background: $tint;
+    padding: 1rem 0;
+  }
 }
 
 .all-link { font-weight: 600; display: inline-block; margin: .5rem 0 2rem; }
@@ -137,7 +143,16 @@ $footer-bg: $tint;
   border-radius: 6px;
   padding: .9rem 1.2rem;
   margin: 0 0 2rem;
+  display: flow-root;   // sits beside a floated hex instead of running under it
   p { margin: 0; line-height: 1.9; }
+}
+
+// Package hex sticker, top right of a project page
+img.hex {
+  float: right;
+  width: 150px;
+  margin: 0 0 1rem 1.5rem;
+  @media (max-width: 575.98px) { float: none; width: 100px; margin: 0; }
 }
 
 .quarto-title-banner { background: $green; border-bottom: 4px solid $gold; }

@@ -1,5 +1,6 @@
 ---
 title: "Water-level logger pipeline"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "Ingest, clean, and flag HOBO pressure-logger time series across monitoring sites."
 categories: [Data infrastructure, Time series]
 image: img/hobo-loggers.png

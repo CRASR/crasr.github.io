@@ -1,7 +1,7 @@
 ---
-title: "Reading list: AI and scientific practice"
+title: "AI and scientific practice: a reading list"
 description: "Annotated readings on generative AI in research, from incentives and learning to AI-written code and environmental costs, with RIS and BibTeX downloads."
-categories: [Research practice, Open science]
+categories: [AI, Research practice, Open science]
 image: img/ai-reading-list.png
 featured: false
 practice: true

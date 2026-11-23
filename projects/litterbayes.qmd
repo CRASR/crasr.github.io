@@ -1,5 +1,6 @@
 ---
 title: "litterbayes"
+draft: true   # hidden for now; delete this line to bring the page back
 description: "An R package for Bayesian fitting of leaf-litter mass-loss curves."
 categories: [R package, Modeling, Stan/brms]
 image: img/litterbayes.png
